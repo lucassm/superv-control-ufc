@@ -1,0 +1,104 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[12pt
+]{article}
+\usepackage{ebgaramond}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+
+\makeatletter
+
+\usepackage{parskip}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{15pt}
+
+
+\makeatother
+
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=cyan,
+  pdfcreator={LaTeX via pandoc}}
+
+% \urlstyle{same} % disable monospaced font for URLs
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{10pt}
+  \setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\title{Lista de Links sobre protocolo Modbus}
+\author{Prof. Lucas Silveira}
+\date{Janeiro de 2025}
+
+\begin{document}
+
+\maketitle
+
+Seguem alguns links de referências e de materiais comentados em sala de
+aula sobre o protocolo modbus:
+
+\begin{itemize}
+\tightlist
+\item
+  Especificação do Modbus: \url{https://www.modbus.org/docs/Modbus_Application_Protocol_V1_1b3.pdf};
+\item
+  Página em inglês na Wikipedia com explicações sobre o protocolo
+  modbus: \url{https://en.wikipedia.org/wiki/Modbus};
+\item
+  Apresentação de slides utilizada em sala de aula sobre o protocolo
+  modbus
+  \href{https://drive.google.com/file/d/1dzLf-euv6dNQS82yvl6RlspNYL8PkfPy/view?usp=drive_link}{link};
+\item
+  Página web do software analisador de rede Wireshark
+  \url{https://www.wireshark.org/};
+\item
+  Página web do projeto SCADA-LTS \url{http://scada-lts.org/};
+\item
+  Github do projeto SCADA-LTS
+  \url{https://github.com/SCADA-LTS/Scada-LTS/wiki};
+\item
+  Página web do WSL (Windows Subsystem Linux) para instalação de uma
+  distribuição Linux no Windows
+  \url{https://learn.microsoft.com/pt-br/windows/wsl/install};
+\item
+  Página web do projeto Docker Containers utilizado para execução do
+  SCADA-LTS \url{https://www.docker.com/};
+\item
+  Link para documentação do relé SEL 751 com capacidade de comunicação
+  via protocolo modbus
+  \href{https://drive.google.com/file/d/1_X_TWn8YUtYiy13mjku66pRBING1N2Ed/view?usp=drive_link}{link};
+\item
+  Link para documentação modbus do relé SEPAN série 80
+  \href{https://drive.google.com/file/d/1mkT6fXqQvDHMV-ROjgld160GoYlrHh5H/view?usp=drive_link}{link};
+\item
+  Link para biblioteca Python, \texttt{PyModbusTCP} com implementação do
+  protocolo modbus \url{https://pymodbustcp.readthedocs.io/en/latest/};
+\end{itemize}
+
+\end{document}
