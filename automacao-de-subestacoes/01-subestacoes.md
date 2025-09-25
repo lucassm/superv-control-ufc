@@ -633,6 +633,10 @@ A saturação causa a degradação do sinal de corrente secundária prejudicando
 
 ---
 
+![bg fit](./Figuras/barra-simples.png)
+
+---
+
 # Arranjo Barra Simples
 
 <div class="columns">
@@ -661,7 +665,11 @@ A saturação causa a degradação do sinal de corrente secundária prejudicando
 
 ---
 
-# Arranjo Barra Simples
+![bg fit](./Figuras/dupla-barra-simples.png)
+
+---
+
+# Arranjo Dupla Barra Simples
 
 <div class="columns">
 
@@ -688,6 +696,10 @@ A saturação causa a degradação do sinal de corrente secundária prejudicando
 
 ---
 
+![bg fit](./Figuras/barra-simples-seccionada.png)
+
+---
+
 # Arranjo Barra simples seccionada
 
 <div class="columns">
@@ -698,8 +710,8 @@ A saturação causa a degradação do sinal de corrente secundária prejudicando
 ## Vantagens
 
 - Maior continuidade no fornecimento.
-- Maior facilidade de manutenção.
-- Este arranjo é indicado para funcionar com duas ou mais fontes de energia.
+- Facilidade de manutenção.
+- É indicado para funcionar com duas ou mais fontes de energia.
 - Em caso de falha da barra, somente são desligados os consumidores ligados à seção.
 
 </div>
@@ -718,10 +730,149 @@ A saturação causa a degradação do sinal de corrente secundária prejudicando
 
 ---
 
+![bg fit](./Figuras/barra-principal-e-transferencia.png)
+
+---
+
 # Arranjo Barra principal e de transferência
+
+<div class="columns">
+
+<div>
+
+## Vantagens
+
+- Custo relativamente baixos.
+- Possibilidade de ampliação da SE sem desenergização.
+- Qualquer disjuntor pode ser retirado de serviço para manutenção.
+- Fácil ampliação.
+</div>
+
+<div>
+
+## Desvantagens
+
+- Requer disjuntor extra para a conexão entre as barras.
+- Falha no barramento em um dos disjuntores resulta no desligamento da SE.
+- Esquema de proteção é mais complexo.
+</div>
+
+</div>
 
 ---
 
 # Arranjo Barra dupla, um disjuntor
 
+<div class="columns">
+
+<div>
+
+## Vantagens
+
+- Permite alguma flaxibilidade com ambas as barras em operação.
+- Qualquer uma das barras pode  ser isolada para manutenção.
+- Facilidade de transferência dos circuitos entre as barras.
+
+</div>
+
+<div>
+
+## Desvantagens
+
+- Requer um disjuntor extra para conexão entre as barras.
+- São necessárias quatro chaves seccionadoras por circuito.
+- A proteção do barramento pode causar a perda da SE.
+- Alta exposição a falhas no barramento.
+
+</div>
+
+</div>
+
 ---
+
+# Barra dupla disjuntor duplo
+
+<div class="columns">
+
+<div>
+
+## Vantagens
+
+- Muito mais flexível.
+- Maior confiabilidade.
+
+</div>
+
+<div>
+
+## Desvantagens
+
+- Arranjo mais complexo.
+- Custo elevado.
+
+</div>
+
+</div>
+
+---
+
+# Barra Dupla com disjuntor e Meio
+
+<div class="columns">
+
+<div>
+
+## Vantagens
+
+- Maior flexibilidade de manobra e rápida recomposição.
+- Falha nos disjuntores adjacentes às barras retiram apenas um circuito de serviço.
+- Manobras simples.
+- Qualquer das barras pode ser retirada para manutenção.
+
+</div>
+
+<div>
+
+## Desvantagens
+
+- Operação complicada.
+- Meio disjuntor adicional por circuito.
+
+</div>
+
+</div>
+
+---
+
+# Barramento em Anel
+
+<div class="columns">
+
+<div>
+
+## Vantagens
+
+- Baixo custo.
+- Flexibilidade para manutenção nos disjuntores.
+- Qualquer disjuntor pode ser retirado para manutenção sem interrupção de fornecimento.
+
+</div>
+
+<div>
+
+## Desvantagens
+
+- Se uma falta ocorre durante a manutenção, o anel pode ser separado em duas seções.
+- Esquema de proteção mais complexo.
+
+</div>
+
+</div>
+
+---
+
+# Obrigado!
+
+## Prof. Lucas Silveira
+
+lucassmelo@dee.ufc.br
